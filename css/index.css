@@ -2,13 +2,12 @@ h1{
     text-align: center;
     font-family: 'Spicy Rice', cursive;
     font-size: 45px;
+    
     /* identical to box height */
     color: #FFFFFF;
     text-shadow: 2px 3px 3px hotpink;
     padding-top: 30px;
-    padding-bottom: 30px;
-    margin-top: 0px;
-    margin-bottom: 0;
+    padding-bottom: 20px;
     cursor: pointer;
     
     }
@@ -19,10 +18,13 @@ h1{
         padding-bottom: 5px;
         border-bottom: 20px solid  #2932D9;
         text-align: center;
+        font-size: 45px;
         
         }
 
-
+h1.logo{
+    font-size: 60px;
+}
 
 body{
     margin: 20 100;
@@ -45,7 +47,7 @@ body{
 li a{
     
     text-decoration: none;
-    color: black;
+    color: white;
     
 }
 .title{
@@ -95,6 +97,10 @@ p{
 
 .nav-link.active{
     font-weight: bold;
+}
+
+.nav.justify-content-center{
+    font-size: 17px;
 }
 
 .lead{
