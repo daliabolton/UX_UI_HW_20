@@ -4,7 +4,7 @@ h1{
     font-size: 45px;
     /* identical to box height */
     color: #FFFFFF;
-    text-shadow: 3px 4px 4px #316CE0;
+    text-shadow: 4px 3px 3px hotpink;
     padding-top: 30px;
     padding-bottom: 30px;
     margin-top: 0px;
@@ -15,9 +15,9 @@ h1{
 
     .logo{
 
-        background-color: #DEB5FF;
+        background-color: #5C92FF;
         padding-bottom: 5px;
-        border-bottom: 20px solid  #B5F2FF;
+        border-bottom: 20px solid  #2932D9;
         text-align: center;
         
         }
@@ -31,12 +31,14 @@ body{
 }
 
 .card-body{
-    margin: 50;
+    margin: 50px 50px 0px ;
+    
 
 }
 
 .col.mb-4{
-    margin: 50px 50px;
+    margin: 100px 100px 100px 10px;
+    
     
 }
 
@@ -71,10 +73,7 @@ p{
 }
 
 
-.col{
-    margin: 0 auto;
-    
-}
+
 
 .roundedOne{
     width: 80%;
