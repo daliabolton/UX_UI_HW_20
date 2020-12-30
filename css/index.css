@@ -32,6 +32,15 @@ body{
 
 }
 
+.responsive{
+    
+       
+        max-width: 100%;
+        height: auto;
+      
+    
+}
+
 .card-body{
     margin: 50px 50px 0px ;
     
