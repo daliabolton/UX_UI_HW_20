@@ -42,16 +42,11 @@ body{
 }
 
 .card-body{
-    margin: 50px 50px 0px ;
+    margin:auto ;
     
 
 }
 
-.col.mb-4{
-    margin: 100px 100px 100px 10px;
-    
-    
-}
 
 li a{
     
@@ -95,11 +90,8 @@ p{
 }
 
 .gritLogo{
-    width: 15%;
-    align-items: center;
-    margin: 0 100px 50 200;
     
-    float: left;
+    float: right;
 }
 
 .nav-item{
