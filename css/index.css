@@ -63,6 +63,7 @@ li a{
     font-size: 30px;
     font-family: 'Spicy Rice', cursive;
     text-align: left;
+    margin: auto;
     
 
     
@@ -95,6 +96,7 @@ p{
 
 .gritLogo{
     width: 15%;
+    align-items: center;
     margin: 0 100px 50 200;
     
     float: left;
@@ -116,6 +118,7 @@ p{
     text-align: center;
     font-family: 'Times New Roman', Times, serif ;
     float: left;
+    margin: auto;
 }
 
 
@@ -152,3 +155,18 @@ ul#end li{
     cursor: pointer;
 }
 
+@media screen and (max-width:800px) {
+    .header, .myWork, .logo, .mySkills, .table, #menu-outer, .square  {
+        width: 100%;
+    }
+  }
+
+  @media screen and (max-width:800px){
+      p, .card-deck{
+          width: 100%;
+      }
+  }
+
+  .responsive{
+      max-width: 100%;
+  }
